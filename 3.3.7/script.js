@@ -34,6 +34,15 @@ sayHello("Alice");
  
 function addNumber(num1, num2) {
     console.log(num1 + num2);
+    console.log(num1 - num2);
+    console.log(num1 * num2);
+    console.log(num1 / num2);
 }
  
 addNumber(5,8);
+
+function vypisCisla(zacatek, konec) {
+    for (let zacatek = 5; konec <= 8; zacatek++)
+        console.log(zacatek, konec)
+}
+
