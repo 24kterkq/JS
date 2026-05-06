@@ -35,7 +35,7 @@ console.log(konec());
 // cviceni
 
 function jeSude(cislo) {
-return cislo % 2 === 0
+return cislo % 2 === 0;
 }
      
 console.log(jeSude(20));
