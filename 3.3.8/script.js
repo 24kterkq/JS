@@ -31,3 +31,12 @@ function konec() {
 
 let konec2 = konec();
 console.log(konec());
+
+// cviceni
+
+function jeSude(cislo) {
+return cislo % 2 === 0
+}
+     
+console.log(jeSude(20));
+console.log(jeSude(7));
